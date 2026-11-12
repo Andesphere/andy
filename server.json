@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Andesphere/andy",
+  "title": "Andy",
+  "description": "Run Andy, the AI agent for WhatsApp and Instagram: read chats, approve posts, update your agents.",
+  "version": "1.0.0",
+  "websiteUrl": "https://andypartner.com/en/mcp",
+  "icons": [
+    {
+      "src": "https://andypartner.com/apple-icon.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "180x180"
+      ]
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/Andesphere/andy",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.andypartner.com/api/mcp"
+    }
+  ]
+}
